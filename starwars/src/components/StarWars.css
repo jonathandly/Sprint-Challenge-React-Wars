@@ -1,0 +1,29 @@
+.char-list-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unordered {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 15px;
+    background: lightgoldenrodyellow;
+    color: darkgrey;
+    margin: 15px auto;
+    font-size: 18px;
+}
+
+a {
+    text-decoration-color: lightcoral;
+    color: lightslategray;
+}
+p {
+    right: 10%;
+    position: relative;
+}
