@@ -4,22 +4,22 @@ const Char = props => {
     return (
             <div className="unordered">
                 <ul>
-                    <li className="character-list"><p>Name: {props.character.name}</p>
-                    <p>Birth Year: {props.character.birth_year}</p>
-                    <p>Created: {props.character.created}</p>
-                    <p>Edited: {props.character.edited}</p>
-                    <p>Eye Color: {props.character.eye_color}</p>
-                    <p><a href={props.character.films}>Films</a></p>
-                    <p>Gender: {props.character.gender}</p>
-                    <p>Hair Color: {props.character.hair_color}</p>
-                    <p>Height: {props.character.height}</p>
-                    <p><a href={props.character.homeworld}>Homeworld</a></p>
-                    <p>Mass: {props.character.mass}</p>
-                    <p>Skin Color: {props.character.skin_color}</p>
-                    <p><a href={props.character.species}>Species</a></p>
-                    <p><a href={props.character.starships}>Starships</a></p>
-                    <p><a href={props.character.url}>URL</a></p>
-                    <p><a href={props.character.vehicles}>Vehicles</a></p></li>
+                    <li><p>Name: {props.character.name}</p></li>
+                    <li><p>Birth Year: {props.character.birth_year}</p></li>
+                    <li><p>Created: {props.character.created}</p></li>
+                    <li><p>Edited: {props.character.edited}</p></li>
+                    <li><p>Eye Color: {props.character.eye_color}</p></li>
+                    <li><p>Films: <a href={props.character.films[0]}>Films</a></p></li>
+                    <li><p>Gender: {props.character.gender}</p></li>
+                    <li><p>Hair Color: {props.character.hair_color}</p></li>
+                    <li><p>Height: {props.character.height}</p></li>
+                    <li><p>Homeworld: <a href={props.character.homeworld}>Homeworld</a></p></li>
+                    <li><p>Mass: {props.character.mass}</p></li>
+                    <li><p>Skin Color: {props.character.skin_color}</p></li>
+                    <li><p>Species: <a href={props.character.species}>Species</a></p></li>
+                    <li><p>Starships: <a href={props.character.starships}>Starships</a></p></li>
+                    <li><p>URL: <a href={props.character.url}>URL</a></p></li>
+                    <li><p>Vehicles: <a href={props.character.vehicles}>Vehicles</a></p></li>
                 </ul>
             </div>
         );

@@ -33,8 +33,6 @@ class App extends Component {
   };
 
   render() {
-    // console.log(this.state.starwarsChars);
-    // console.log(this.state.starwarsChars.name);
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
