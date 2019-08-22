@@ -17,9 +17,9 @@ const Char = props => {
                     <li><p>Mass: {props.character.mass}</p></li>
                     <li><p>Skin Color: {props.character.skin_color}</p></li>
                     <li><p>Species: <a href={props.character.species}>Species</a></p></li>
-                    <li><p>Starships: <a href={props.character.starships}>Starships</a></p></li>
+                    <li><p>Starships: <a href={props.character.starships[0]}>Starships</a></p></li>
                     <li><p>URL: <a href={props.character.url}>URL</a></p></li>
-                    <li><p>Vehicles: <a href={props.character.vehicles}>Vehicles</a></p></li>
+                    <li><p>Vehicles: <a href={props.character.vehicles[0]}>Vehicles</a></p></li>
                 </ul>
             </div>
         );
